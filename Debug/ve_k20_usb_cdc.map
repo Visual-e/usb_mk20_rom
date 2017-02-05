@@ -1,0 +1,1459 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (exit)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (__libc_init_array)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+                              ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin) (memcpy)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (memset)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+                              ./app/common/kinetis/printf.o (symbol from plugin) (strlen)
+d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+buff                0xc8              ./app/common/kinetis/sci.o (symbol from plugin)
+kbi_stat            0x1               ./app/common/main_kinetis.o (symbol from plugin)
+buff_index          0x4               ./app/common/kinetis/sci.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+ .data          0x00000000        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.extab     0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .text          0x00000000        0x0 ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.printk   0x00000000      0x5f4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.printf_kinetis
+                0x00000000       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.sprintf_kinetis
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.buff      0x00000000       0xc8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.buff_index
+                0x00000000        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.sci_init
+                0x00000000       0xdc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.uart_putchar
+                0x00000000       0x2c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.uart_getchar
+                0x00000000       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.out_char
+                0x00000000       0x1c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.sci2_PutChar
+                0x00000000       0x14 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.kbi_stat  0x00000000        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.all_led_off
+                0x00000000       0x18 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.display_led
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.IRQ_ISR_PORTA
+                0x00000000       0x54 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.IRQ_ISR_PORTC
+                0x00000000       0x78 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.IRQ_ISR_PORTD
+                0x00000000       0x54 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.IRQ_ISR_PORTE
+                0x00000000       0x54 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.sleep    0x00000000       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.deepsleep
+                0x00000000       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_wait
+                0x00000000        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_stop
+                0x00000000       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlpr
+                0x00000000       0xac C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlps
+                0x00000000       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_lls
+                0x00000000       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlls3
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlls2
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlls1
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.enter_vlls0
+                0x00000000       0x4c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_Desc_Valid_Interface
+                0x00000000       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__iar_program_start
+                0x00000000        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_DeInit
+                0x00000000       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.AddTimerQ
+                0x00000000       0x78 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.RemoveTimerQ
+                0x00000000       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.EnableTimerInterrupt
+                0x00000000       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.DisableTimerInterrupt
+                0x00000000       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.Timer_ISR
+                0x00000000       0x9c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.printk_putc.lto_priv.9
+                0x00000000       0x50 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.printk_mknumstr.lto_priv.12
+                0x00000000       0xfc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.printk_pad_zero.lto_priv.11
+                0x00000000       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.printk_pad_space.lto_priv.10
+                0x00000000       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_DeInit
+                0x00000000       0x68 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_read_setup_data
+                0x00000000       0x60 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_get_transfer_status
+                0x00000000       0xa0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_shutdown
+                0x00000000       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_deinit
+                0x00000000       0x18 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_unregister_service
+                0x00000000       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_event_init
+                0x00000000       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_event_set
+                0x00000000       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_event_clear
+                0x00000000       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_event_wait_ticks
+                0x00000000       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Class_DeInit
+                0x00000000       0xac C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Framework_DeInit
+                0x00000000       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Framework_Reset
+                0x00000000       0x18 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text          0x00000000        0x0 ./source/driver/usb_driver.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/driver/usbevent.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/common/usb_class.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/common/usb_framework.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/class/usb_cdc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/class/usb_cdc_pstn.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/common/kinetis/printf.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/common/kinetis/sci.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/common/kinetis/wdt_kinetis.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/common/main_kinetis.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/cdc/usb_descriptor.o (symbol from plugin)
+ .text          0x00000000        0x0 ./app/cdc/virtual_com.o (symbol from plugin)
+ .text          0x00000000        0x0 ./System/kinetis_sysinit.o (symbol from plugin)
+ .text          0x00000000        0x0 ./System/startup.o (symbol from plugin)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000       0x10 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x17 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .eh_frame      0x00000000        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .jcr           0x00000000        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .text          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+ .data          0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+ .bss           0x00000000        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x000000f8         xr
+m_text           0x00000410         0x00007bf0         xr
+m_data           0x1ffff000         0x00001000         rw
+m_data_20000000  0x20000000         0x00001000         rw
+m_cfmprotrom     0x00000400         0x00000010         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+LOAD ./source/driver/kinetis/usb_dci_kinetis.o
+LOAD C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+LOAD C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+LOAD C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+LOAD ./source/driver/usb_driver.o
+LOAD ./source/driver/usbevent.o
+LOAD ./source/common/usb_class.o
+LOAD ./source/common/usb_framework.o
+LOAD ./source/class/usb_cdc.o
+LOAD ./source/class/usb_cdc_pstn.o
+LOAD ./app/common/kinetis/RealTimerCounter_kinetis.o
+LOAD ./app/common/kinetis/printf.o
+LOAD ./app/common/kinetis/sci.o
+LOAD ./app/common/kinetis/wdt_kinetis.o
+LOAD ./app/common/main_kinetis.o
+LOAD ./app/cdc/usb_descriptor.o
+LOAD ./app/cdc/virtual_com.o
+LOAD ./System/kinetis_sysinit.o
+LOAD ./System/startup.o
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libstdc++_nano.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libm.a
+START GROUP
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m\libgcc.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m\libgcc.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m\libgcc.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+END GROUP
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+                0x20000000                _estack = 0x20000000
+                0x20000000                __SP_INIT = _estack
+                0x20000000                __stack = _estack
+                0x00000000                __heap_size = 0x0
+                0x00000100                __stack_size = 0x100
+
+.interrupts     0x00000000       0xf4
+                0x00000000                __vector_table = .
+                0x00000000                . = ALIGN (0x4)
+ *(.vectortable)
+ .vectortable   0x00000000       0xf4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000000f4                . = ALIGN (0x4)
+
+.cfmprotect     0x00000400        0x0
+                0x00000400                . = ALIGN (0x4)
+ *(.cfmconfig)
+                0x00000400                . = ALIGN (0x4)
+
+.text           0x00000410     0x37f8
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0xa4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ .text          0x000004b4       0x74 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x000004b4                _start
+                0x000004b4                _mainCRTStartup
+ *(.text*)
+ .text.Watchdog_Reset
+                0x00000528       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000528                Watchdog_Reset
+ .text.main     0x00000548       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000548                main
+ .text.GPIO_Init
+                0x00000570       0xe8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_Init
+                0x00000658       0xa8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.SYS_Init
+                0x00000700        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.set_MCG_PEE_Mode
+                0x0000070c       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.pll_init
+                0x00000744       0x7c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_Desc_Get_Descriptor
+                0x000007c0      0x104 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000007c0                USB_Desc_Get_Descriptor
+ .text.USB_Desc_Get_Interface
+                0x000008c4       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000008c4                USB_Desc_Get_Interface
+ .text.USB_Desc_Set_Interface
+                0x000008f8       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000008f8                USB_Desc_Set_Interface
+ .text.USB_Desc_Valid_Configation
+                0x0000092c       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x0000092c                USB_Desc_Valid_Configation
+ .text.USB_Desc_Remote_Wakeup
+                0x00000970       0x18 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000970                USB_Desc_Remote_Wakeup
+ .text.USB_Desc_Get_Endpoints
+                0x00000988       0x1c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000988                USB_Desc_Get_Endpoints
+ .text.USB_Desc_Get_Line_Coding
+                0x000009a4       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000009a4                USB_Desc_Get_Line_Coding
+ .text.USB_Desc_Set_Line_Coding
+                0x000009e0       0x5c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x000009e0                USB_Desc_Set_Line_Coding
+ .text.USB_Desc_Get_Abstract_State
+                0x00000a3c       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000a3c                USB_Desc_Get_Abstract_State
+ .text.USB_Desc_Get_Country_Setting
+                0x00000a74       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000a74                USB_Desc_Get_Country_Setting
+ .text.USB_Desc_Set_Abstract_State
+                0x00000aac       0x58 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000aac                USB_Desc_Set_Abstract_State
+ .text.USB_Desc_Set_Country_Setting
+                0x00000b04       0x58 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000b04                USB_Desc_Set_Country_Setting
+ .text.TestApp_Init
+                0x00000b5c       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.TestApp_Task
+                0x00000ba4       0x2c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.Virtual_Com_App
+                0x00000bd0       0x94 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_App_Callback
+                0x00000c64       0xac C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_Notify_Callback
+                0x00000d10       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.USB_ISR_TMP
+                0x00000d48        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.Default_Handler
+                0x00000d54        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__init_hardware
+                0x00000d60       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__copy_rom_section
+                0x00000d9c       0xe0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__copy_rom_sections_to_ram
+                0x00000e7c       0xa0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__init_registers
+                0x00000f1c        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__init_user
+                0x00000f28        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .text.__thumb_startup
+                0x00000f34       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00000f34                __thumb_startup
+ .text.USB_Control_Service_Handler.lto_priv.40
+                0x00000f68       0x6c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00000f68                USB_Control_Service_Handler.lto_priv.40
+ .text.USB_Strd_Req_Get_Status.lto_priv.0
+                0x00000fd4      0x168 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00000fd4                USB_Strd_Req_Get_Status.lto_priv.0
+ .text.USB_Strd_Req_Feature.lto_priv.1
+                0x0000113c      0x174 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x0000113c                USB_Strd_Req_Feature.lto_priv.1
+ .text.USB_Strd_Req_Set_Address.lto_priv.2
+                0x000012b0       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x000012b0                USB_Strd_Req_Set_Address.lto_priv.2
+ .text.USB_Strd_Req_Assign_Address.lto_priv.41
+                0x000012ec       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x000012ec                USB_Strd_Req_Assign_Address.lto_priv.41
+ .text.USB_Strd_Req_Get_Config.lto_priv.4
+                0x0000132c       0x4c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x0000132c                USB_Strd_Req_Get_Config.lto_priv.4
+ .text.USB_Strd_Req_Set_Config.lto_priv.5
+                0x00001378       0x94 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001378                USB_Strd_Req_Set_Config.lto_priv.5
+ .text.USB_Strd_Req_Get_Interface.lto_priv.6
+                0x0000140c       0x50 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x0000140c                USB_Strd_Req_Get_Interface.lto_priv.6
+ .text.USB_Strd_Req_Set_Interface.lto_priv.7
+                0x0000145c       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x0000145c                USB_Strd_Req_Set_Interface.lto_priv.7
+ .text.USB_Strd_Req_Sync_Frame.lto_priv.8
+                0x000014a4       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x000014a4                USB_Strd_Req_Sync_Frame.lto_priv.8
+ .text.USB_Strd_Req_Get_Descriptor.lto_priv.3
+                0x000014ec       0x54 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x000014ec                USB_Strd_Req_Get_Descriptor.lto_priv.3
+ .text.USB_Class_CDC_Service_Cic_Notify
+                0x00001540      0x104 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001540                USB_Class_CDC_Service_Cic_Notify
+ .text.USB_Class_CDC_Service_Dic_Bulk_In
+                0x00001644      0x130 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001644                USB_Class_CDC_Service_Dic_Bulk_In
+ .text.USB_Class_CDC_Service_Dic_Bulk_Out
+                0x00001774       0x54 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001774                USB_Class_CDC_Service_Dic_Bulk_Out
+ .text.USB_Class_CDC_Event
+                0x000017c8      0x158 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Other_Requests
+                0x00001920      0x1b4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_Init
+                0x00001ad4      0x108 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001ad4                USB_Class_CDC_Init
+ .text.USB_Class_CDC_Send_Data
+                0x00001bdc      0x14c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001bdc                USB_Class_CDC_Send_Data
+ .text.USB_Class_CDC_Pstn_Init
+                0x00001d28       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Get_Line_Coding
+                0x00001d50       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Set_Line_Coding
+                0x00001d8c       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Set_Ctrl_Line_State
+                0x00001dd0       0xbc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Send_Break
+                0x00001e8c       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Get_Comm_Feature
+                0x00001ebc       0x70 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Set_Comm_Feature
+                0x00001f2c       0x70 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Class_CDC_PSTN_Send_Serial_State
+                0x00001f9c       0x38 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.TimerQInitialize
+                0x00001fd4       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                0x00001fd4                TimerQInitialize
+ .text.TimerInit
+                0x00001ffc       0x74 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .text.USB_Bus_Reset_Handler
+                0x00002070       0xc0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Get_BDT_Index
+                0x00002130       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Validate_Param
+                0x00002170       0x58 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Prepare_Send_Data
+                0x000021c8       0x6c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Init
+                0x00002234      0x13c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Init_EndPoint
+                0x00002370      0x208 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_cancel_transfer
+                0x00002578       0xa4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_DCI_Deinit_EndPoint
+                0x0000261c       0xac C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_stall_endpoint
+                0x000026c8       0x78 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_unstall_endpoint
+                0x00002740       0xdc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_clear_data0_endpoint
+                0x0000281c       0x6c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x0000281c                _usb_device_clear_data0_endpoint
+ .text._usb_device_recv_data
+                0x00002888      0x138 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00002888                _usb_device_recv_data
+ .text._usb_device_send_data
+                0x000029c0       0xe0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_set_address
+                0x00002aa0       0x2c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00002aa0                _usb_device_set_address
+ .text._usb_device_assert_resume
+                0x00002acc       0xb4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Bus_Token_Cpl_Handler
+                0x00002b80      0x328 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_ISR  0x00002ea8      0x2a0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00002ea8                USB_ISR
+ .text.Clear_Mem
+                0x00003148       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Device_Init_Params
+                0x00003168       0x60 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text._usb_device_init
+                0x000031c8       0x50 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x000031c8                _usb_device_init
+ .text._usb_device_init_endpoint
+                0x00003218       0x7c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003218                _usb_device_init_endpoint
+ .text._usb_device_deinit_endpoint
+                0x00003294       0x68 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003294                _usb_device_deinit_endpoint
+ .text._usb_device_get_status
+                0x000032fc       0x64 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x000032fc                _usb_device_get_status
+ .text._usb_device_set_status
+                0x00003360       0xb8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003360                _usb_device_set_status
+ .text._usb_device_register_service
+                0x00003418       0x1c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003418                _usb_device_register_service
+ .text.USB_Device_Call_Service
+                0x00003434       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_NULL_CALLBACK
+                0x00003470       0x14 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003470                USB_NULL_CALLBACK
+ .text.USB_Suspend_Service
+                0x00003484       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003484                USB_Suspend_Service
+ .text.USB_Resume_Service
+                0x000034c0       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x000034c0                USB_Resume_Service
+ .text.USB_Stall_Service
+                0x00003508       0x30 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003508                USB_Stall_Service
+ .text.USB_Sof_Service
+                0x00003538       0x3c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003538                USB_Sof_Service
+ .text.USB_Reset_Service
+                0x00003574       0xb8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003574                USB_Reset_Service
+ .text.USB_Error_Service
+                0x0000362c       0x24 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x0000362c                USB_Error_Service
+ .text.USB_Class_Init
+                0x00003650       0xec C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003650                USB_Class_Init
+ .text.USB_Class_Initiate_Resume
+                0x0000373c       0x6c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Class_Send_Data
+                0x000037a8       0x48 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x000037a8                USB_Class_Send_Data
+ .text.USB_Class_Periodic_Task
+                0x000037f0        0xc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x000037f0                USB_Class_Periodic_Task
+ .text.USB_Framework_Init
+                0x000037fc       0x44 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .text.USB_Control_Service
+                0x00003840      0x1d0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                0x00003840                USB_Control_Service
+ .text.exit     0x00003a10       0x28 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+                0x00003a10                exit
+ .text.__libc_init_array
+                0x00003a38       0x4c d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+                0x00003a38                __libc_init_array
+ .text.memcpy   0x00003a84       0x16 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00003a84                memcpy
+ .text.memset   0x00003a9a       0x10 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                0x00003a9a                memset
+ *fill*         0x00003aaa        0x2 
+ .text._exit    0x00003aac        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+                0x00003aac                _exit
+ *(.rodata)
+ .rodata        0x00003ab0        0x8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ *(.rodata*)
+ .rodata.g_usb_CB.lto_priv.31
+                0x00003ab8       0x60 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00003ab8                g_usb_CB.lto_priv.31
+ .rodata.g_validate_request
+                0x00003b18       0x27 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00003b18                g_validate_request
+ *fill*         0x00003b3f        0x1 
+ .rodata.g_standard_request
+                0x00003b40       0x34 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x00003b40                g_standard_request
+ .rodata.usb_desc_ep
+                0x00003b74       0x10 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_std_desc_size
+                0x00003b84       0x10 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_std_descriptors
+                0x00003b94       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_string_desc_size
+                0x00003bb4        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_string_descriptors
+                0x00003bb8       0x10 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_languages
+                0x00003bc8       0x20 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.g_valid_config_values
+                0x00003be8        0x2 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x00003bea        0x2 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00003bec        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+                0x00003bec                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00003bf0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00003bf0        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00003bf0        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ *(.init)
+ .init          0x00003bf0        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+                0x00003bf0                _init
+ .init          0x00003bf4        0x8 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+ *(.fini)
+ .fini          0x00003bfc        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+                0x00003bfc                _fini
+ .fini          0x00003c00        0x8 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+                0x00003c08                . = ALIGN (0x4)
+                0x00003c08                _etext = .
+
+.vfp11_veneer   0x00003c08        0x0
+ .vfp11_veneer  0x00003c08        0x0 linker stubs
+
+.v4_bx          0x00003c08        0x0
+ .v4_bx         0x00003c08        0x0 linker stubs
+
+.iplt           0x00003c08        0x0
+ .iplt          0x00003c08        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00003c08        0x8
+                0x00003c08                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00003c08        0x8 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x00003c10                __exidx_end = .
+
+.rel.dyn        0x00003c10        0x0
+ .rel.iplt      0x00003c10        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+
+.ctors          0x00003c10        0x0
+                0x00003c10                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x00003c10                __CTOR_END__ = .
+
+.dtors          0x00003c10        0x0
+                0x00003c10                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x00003c10                __DTOR_END__ = .
+
+.preinit_array  0x00003c10        0x0
+                0x00003c10                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00003c10                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00003c10        0x4
+                0x00003c10                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00003c10        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+                0x00003c14                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00003c14        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00003c14        0x4 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x00003c18                ___ROM_AT = .
+
+.data           0x1ffff000      0x15c load address 0x00003c18
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.g_trf_direction.lto_priv.38
+                0x1ffff000        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffff000                g_trf_direction.lto_priv.38
+ *fill*         0x1ffff001        0x3 
+ .data.g_serial_state_buf.lto_priv.14
+                0x1ffff004        0xa C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffff004                g_serial_state_buf.lto_priv.14
+ *fill*         0x1ffff00e        0x2 
+ .data.g_device_descriptor
+                0x1ffff010       0x12 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff022        0x2 
+ .data.g_config_descriptor
+                0x1ffff024       0x43 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff067        0x1 
+ .data.USB_STR_0
+                0x1ffff068        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .data.USB_STR_1
+                0x1ffff06c       0x3a C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff0a6        0x2 
+ .data.USB_STR_2
+                0x1ffff0a8       0x1e C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff0c6        0x2 
+ .data.USB_STR_n
+                0x1ffff0c8       0x22 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff0ea        0x2 
+ .data.g_line_coding
+                0x1ffff0ec        0xe C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .data.start_transactions
+                0x1ffff0fa        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffff0fb        0x1 
+ .data.impure_data
+                0x1ffff0fc       0x60 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+                0x1ffff15c                . = ALIGN (0x4)
+                0x1ffff15c                _edata = .
+                0x0000015c                ___data_size = (_edata - _sdata)
+                0x00003d74                ___m_data_20000000_ROMStart = (___ROM_AT + SIZEOF (.data))
+
+.jcr            0x1ffff15c        0x0 load address 0x00003d74
+ .jcr           0x1ffff15c        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+
+.tm_clone_table
+                0x1ffff15c        0x0 load address 0x00003d74
+ .tm_clone_table
+                0x1ffff15c        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ .tm_clone_table
+                0x1ffff15c        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+
+.igot.plt       0x1ffff15c        0x0 load address 0x00003d74
+ .igot.plt      0x1ffff15c        0x0 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+
+.m_data_20000000
+                0x20000000        0x0 load address 0x00003d74
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                ___m_data_20000000_RAMStart = .
+ *(.m_data_20000000)
+                0x20000000                ___m_data_20000000_RAMEnd = .
+                0x20000000                . = ALIGN (0x4)
+                0x00000000                ___m_data_20000000_ROMSize = (___m_data_20000000_RAMEnd - ___m_data_20000000_RAMStart)
+                0x20000000                . = ALIGN (0x4)
+
+.bss            0x1ffff200      0xa10 load address 0x00004000
+                0x1ffff200                __START_BSS = .
+                0x1ffff200                PROVIDE (__bss_start__, __START_BSS)
+ *(.bss)
+ .bss           0x1ffff200       0x1c d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ *(.bss*)
+ *fill*         0x1ffff21c      0x1e4 
+ .bss.g_Mem     0x1ffff400      0x400 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffff400                g_Mem
+ .bss.g_bdtmap  0x1ffff800        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffff800                g_bdtmap
+ .bss.g_bdt_elem.lto_priv.37
+                0x1ffff804      0x240 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffff804                g_bdt_elem.lto_priv.37
+ .bss.g_dci_controller_Id.lto_priv.36
+                0x1ffffa44        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa44                g_dci_controller_Id.lto_priv.36
+ *fill*         0x1ffffa45        0x3 
+ .bss.g_bdt_address.lto_priv.39
+                0x1ffffa48        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa48                g_bdt_address.lto_priv.39
+ .bss.g_usb_component_status.lto_priv.32
+                0x1ffffa4c        0x7 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa4c                g_usb_component_status.lto_priv.32
+ *fill*         0x1ffffa53        0x1 
+ .bss.g_usb_ep_status.lto_priv.33
+                0x1ffffa54        0x7 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa54                g_usb_ep_status.lto_priv.33
+ .bss.g_EPn.lto_priv.34
+                0x1ffffa5b        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa5b                g_EPn.lto_priv.34
+ .bss.g_EPn_max.lto_priv.35
+                0x1ffffa5c        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa5c                g_EPn_max.lto_priv.35
+ *fill*         0x1ffffa5d        0x3 
+ .bss.g_class_callback.lto_priv.29
+                0x1ffffa60        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa60                g_class_callback.lto_priv.29
+ .bss.g_device_state_before_suspend.lto_priv.30
+                0x1ffffa64        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa64                g_device_state_before_suspend.lto_priv.30
+ *fill*         0x1ffffa65        0x3 
+ .bss.g_setup_pkt.lto_priv.26
+                0x1ffffa68        0x8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa68                g_setup_pkt.lto_priv.26
+ .bss.g_std_framework_data.lto_priv.23
+                0x1ffffa70        0x2 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa70                g_std_framework_data.lto_priv.23
+ .bss.g_assigned_address.lto_priv.25
+                0x1ffffa72        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa72                g_assigned_address.lto_priv.25
+ *fill*         0x1ffffa73        0x1 
+ .bss.g_framework_callback.lto_priv.24
+                0x1ffffa74        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa74                g_framework_callback.lto_priv.24
+ .bss.g_other_req_callback.lto_priv.28
+                0x1ffffa78        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa78                g_other_req_callback.lto_priv.28
+ .bss.ext_req_to_host.lto_priv.27
+                0x1ffffa7c       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffa7c                ext_req_to_host.lto_priv.27
+ .bss.g_cdc_class_callback.lto_priv.21
+                0x1ffffaa4        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffaa4                g_cdc_class_callback.lto_priv.21
+ .bss.g_vendor_req_callback.lto_priv.22
+                0x1ffffaa8        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffaa8                g_vendor_req_callback.lto_priv.22
+ .bss.g_cdc_ep.lto_priv.20
+                0x1ffffaac       0x9c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffaac                g_cdc_ep.lto_priv.20
+ .bss.g_pstn_callback.lto_priv.19
+                0x1ffffb48        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb48                g_pstn_callback.lto_priv.19
+ .bss.g_dte_present.lto_priv.18
+                0x1ffffb4c        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb4c                g_dte_present.lto_priv.18
+ .bss.g_dte_status.lto_priv.17
+                0x1ffffb4d        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb4d                g_dte_status.lto_priv.17
+ .bss.g_break_duration.lto_priv.16
+                0x1ffffb4e        0x2 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb4e                g_break_duration.lto_priv.16
+ .bss.g_current_interface.lto_priv.13
+                0x1ffffb50        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb50                g_current_interface.lto_priv.13
+ *fill*         0x1ffffb51        0x3 
+ .bss.g_uart_bitmap.lto_priv.15
+                0x1ffffb54        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb54                g_uart_bitmap.lto_priv.15
+ *fill*         0x1ffffb55        0x3 
+ .bss.g_TimerObjectArray
+                0x1ffffb58       0x28 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                0x1ffffb58                g_TimerObjectArray
+ .bss.g_abstract_state
+                0x1ffffb80        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.g_country_code
+                0x1ffffb84        0x4 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.g_alternate_interface
+                0x1ffffb88        0x2 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.start_app
+                0x1ffffb8a        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *fill*         0x1ffffb8b        0x1 
+ .bss.g_curr_recv_buf
+                0x1ffffb8c       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.g_curr_send_buf
+                0x1ffffbcc       0x40 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.g_recv_size
+                0x1ffffc0c        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.g_send_size
+                0x1ffffc0d        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .bss.status.6254
+                0x1ffffc0e        0x1 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ *(COMMON)
+                0x1ffffc10                . = ALIGN (0x4)
+ *fill*         0x1ffffc0f        0x1 
+                0x1ffffc10                __END_BSS = .
+                0x1ffffc10                PROVIDE (__bss_end__, __END_BSS)
+                0x00003d74                _romp_at = ((___ROM_AT + SIZEOF (.data)) + SIZEOF (.m_data_20000000))
+
+.romp           0x1ffffc10       0x24 load address 0x00003d74
+                0x00003d74                __S_romp = _romp_at
+                0x1ffffc10        0x4 LONG 0x3c18 ___ROM_AT
+                0x1ffffc14        0x4 LONG 0x1ffff000 _sdata
+                0x1ffffc18        0x4 LONG 0x15c ___data_size
+                0x1ffffc1c        0x4 LONG 0x3d74 ___m_data_20000000_ROMStart
+                0x1ffffc20        0x4 LONG 0x20000000 ___m_data_20000000_RAMStart
+                0x1ffffc24        0x4 LONG 0x0 ___m_data_20000000_ROMSize
+                0x1ffffc28        0x4 LONG 0x0
+                0x1ffffc2c        0x4 LONG 0x0
+                0x1ffffc30        0x4 LONG 0x0
+                0x00008000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
+                0x00003d98                data_init_end = ((___m_data_20000000_ROMStart + SIZEOF (.m_data_20000000)) + SIZEOF (.romp))
+                0x00000001                ASSERT ((data_init_end <= text_end), region m_text overflowed with text and data)
+
+._user_heap_stack
+                0x1ffffc34      0x100 load address 0x00003d98
+                0x1ffffc34                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                [!provide]                PROVIDE (__end__, .)
+                0x1ffffc34                __heap_addr = .
+                0x1ffffc34                __HeapBase = .
+                0x1ffffc34                . = (. + __heap_size)
+                0x1ffffc34                __HeapLimit = .
+                0x1ffffd34                . = (. + __stack_size)
+ *fill*         0x1ffffc34      0x100 
+                0x1ffffd34                . = ALIGN (0x4)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x1c d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.attributes
+                0x00000068       0x31 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000099       0x31 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .ARM.attributes
+                0x000000ca       0x31 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .ARM.attributes
+                0x000000fb       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000129       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000157       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000185       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000001b3       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000001e1       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000020f       0x2e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+ .ARM.attributes
+                0x0000023d       0x1e d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtn.o
+OUTPUT(ve_k20_usb_cdc.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x4270
+ .debug_info    0x00000000     0x1a1b C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_info    0x00001a1b     0x1255 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_info    0x00002c70     0x1600 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_abbrev   0x00000000      0xa77
+ .debug_abbrev  0x00000000      0x3e0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_abbrev  0x000003e0      0x324 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_abbrev  0x00000704      0x373 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_aranges  0x00000000      0x4f0
+ .debug_aranges
+                0x00000000      0x1f0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_aranges
+                0x000001f0      0x148 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000338      0x1b8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_ranges   0x00000000      0x4d8
+ .debug_ranges  0x00000000      0x1e0 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_ranges  0x000001e0      0x150 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_ranges  0x00000330      0x1a8 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_line     0x00000000     0x1810
+ .debug_line    0x00000000      0x9fa C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_line    0x000009fa      0x670 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_line    0x0000106a      0x7a6 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_str      0x00000000     0x1df8
+ .debug_str     0x00000000     0x10d7 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                               0x125c (size before relaxing)
+ .debug_str     0x000010d7      0x6cc C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                0xb41 (size before relaxing)
+ .debug_str     0x000017a3      0x655 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                0xb0b (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .comment       0x0000006e       0x6f C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+
+.debug_frame    0x00000000     0x1624
+ .debug_frame   0x00000000      0x860 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+ .debug_frame   0x00000860      0x57c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+ .debug_frame   0x00000ddc      0x78c C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+ .debug_frame   0x00001568       0x28 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00001590       0x2c d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x000015bc       0x28 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000015e4       0x20 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00001604       0x20 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+AddTimerQ                                         ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+BusFault_Handler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+CMP0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+CMP1_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+CMT_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+Clear_Mem                                         ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+DMA0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DMA1_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DMA2_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DMA3_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DMA4_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DMA5_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+DebugMon_Handler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+Default_Handler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+FLASH_CC_IRQHandler                               ./System/kinetis_sysinit.o (symbol from plugin)
+FLASH_RC_IRQHandler                               ./System/kinetis_sysinit.o (symbol from plugin)
+FTM0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+FTM1_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+HardFault_Handler                                 ./System/kinetis_sysinit.o (symbol from plugin)
+I2C0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+I2S0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+I2S1_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+IRQ_ISR_PORTA                                     ./app/common/main_kinetis.o (symbol from plugin)
+IRQ_ISR_PORTC                                     ./app/common/main_kinetis.o (symbol from plugin)
+IRQ_ISR_PORTD                                     ./app/common/main_kinetis.o (symbol from plugin)
+IRQ_ISR_PORTE                                     ./app/common/main_kinetis.o (symbol from plugin)
+InterruptVector                                   ./System/kinetis_sysinit.o (symbol from plugin)
+LLWU_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+LPT_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+MCG_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+MemManage_Handler                                 ./System/kinetis_sysinit.o (symbol from plugin)
+NMI_Handler                                       ./System/kinetis_sysinit.o (symbol from plugin)
+PDB_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+PIT0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+PIT1_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+PIT2_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+PIT3_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+PORTA_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+PORTB_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+PORTC_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+PORTD_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+PORTE_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+PendSV_Handler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+RTC_AlarmIRQHandler                               ./System/kinetis_sysinit.o (symbol from plugin)
+RTC_SecondsIRQHandler                             ./System/kinetis_sysinit.o (symbol from plugin)
+RemoveTimerQ                                      ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+SPI0_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+SVC_Handler                                       ./System/kinetis_sysinit.o (symbol from plugin)
+SysTick_Handler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+TSI_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+TestApp_Init                                      ./app/cdc/virtual_com.o (symbol from plugin)
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+TestApp_Task                                      ./app/cdc/virtual_com.o (symbol from plugin)
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+TimerQInitialize                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+Timer_ISR                                         ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+UART0_CEA709IRQHandler                            ./System/kinetis_sysinit.o (symbol from plugin)
+UART0_ERR_IRQHandler                              ./System/kinetis_sysinit.o (symbol from plugin)
+UART0_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+UART1_ERR_IRQHandler                              ./System/kinetis_sysinit.o (symbol from plugin)
+UART1_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+UART2_ERR_IRQHandler                              ./System/kinetis_sysinit.o (symbol from plugin)
+UART2_IRQHandler                                  ./System/kinetis_sysinit.o (symbol from plugin)
+USB_CD_IRQHandler                                 ./System/kinetis_sysinit.o (symbol from plugin)
+USB_Class_CDC_DeInit                              ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_Event                               ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_Init                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/virtual_com.o (symbol from plugin)
+USB_Class_CDC_PSTN_Get_Comm_Feature               ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_PSTN_Get_Line_Coding                ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_PSTN_Send_Break                     ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_PSTN_Send_Serial_State              ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Class_CDC_PSTN_Set_Comm_Feature               ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_PSTN_Set_Ctrl_Line_State            ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_PSTN_Set_Line_Coding                ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_Pstn_Init                           ./source/class/usb_cdc_pstn.o (symbol from plugin)
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_CDC_Send_Data                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/virtual_com.o (symbol from plugin)
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Class_CDC_Service_Cic_Notify                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Class_CDC_Service_Dic_Bulk_In                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Class_CDC_Service_Dic_Bulk_Out                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Class_DeInit                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_Init                                    C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Class_Initiate_Resume                         ./source/common/usb_class.o (symbol from plugin)
+USB_Class_Periodic_Task                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/virtual_com.o (symbol from plugin)
+USB_Class_Send_Data                               C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+USB_Control_Service                               C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Control_Service_Handler.lto_priv.40           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+USB_DCI_DeInit                                    ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_DCI_Deinit_EndPoint                           ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_DCI_Init                                      ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_DCI_Init_EndPoint                             ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Desc_Get_Abstract_State                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Get_Country_Setting                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Get_Descriptor                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+USB_Desc_Get_Endpoints                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+USB_Desc_Get_Interface                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+USB_Desc_Get_Line_Coding                          C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Remote_Wakeup                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+USB_Desc_Set_Abstract_State                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Set_Country_Setting                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Set_Interface                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+USB_Desc_Set_Line_Coding                          C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc_pstn.o (symbol from plugin)
+USB_Desc_Valid_Configation                        C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/usb_descriptor.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+USB_Desc_Valid_Interface                          ./app/cdc/usb_descriptor.o (symbol from plugin)
+USB_Device_Call_Service                           ./source/driver/usb_driver.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+USB_Error_Service                                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Framework_DeInit                              ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+USB_Framework_Init                                ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+USB_Framework_Reset                               ./source/common/usb_framework.o (symbol from plugin)
+USB_ISR                                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/kinetis_sysinit.o (symbol from plugin)
+USB_ISR_IRQHandler                                ./System/kinetis_sysinit.o (symbol from plugin)
+USB_ISR_TMP                                       ./System/kinetis_sysinit.o (symbol from plugin)
+USB_NULL_CALLBACK                                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Reset_Service                                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Resume_Service                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_STR_0                                         ./app/cdc/usb_descriptor.o (symbol from plugin)
+USB_STR_1                                         ./app/cdc/usb_descriptor.o (symbol from plugin)
+USB_STR_2                                         ./app/cdc/usb_descriptor.o (symbol from plugin)
+USB_STR_n                                         ./app/cdc/usb_descriptor.o (symbol from plugin)
+USB_Sof_Service                                   C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Stall_Service                                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+USB_Strd_Req_Assign_Address.lto_priv.41           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+USB_Strd_Req_Feature.lto_priv.1                   C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Get_Config.lto_priv.4                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Get_Descriptor.lto_priv.3            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Get_Interface.lto_priv.6             C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Get_Status.lto_priv.0                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Set_Address.lto_priv.2               C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Set_Config.lto_priv.5                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Set_Interface.lto_priv.7             C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Strd_Req_Sync_Frame.lto_priv.8                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+USB_Suspend_Service                               C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+UsageFault_Handler                                ./System/kinetis_sysinit.o (symbol from plugin)
+VLD_IRQHandler                                    ./System/kinetis_sysinit.o (symbol from plugin)
+WDOG_IRQHandler                                   ./System/kinetis_sysinit.o (symbol from plugin)
+Watchdog_Reset                                    C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/kinetis/wdt_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_ITM_deregisterTMCloneTable                       d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+_ITM_registerTMCloneTable                         d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+_Jv_RegisterClasses                               d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+__SP_INIT                                         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/startup.o (symbol from plugin)
+__S_romp                                          C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/startup.o (symbol from plugin)
+__TMC_END__                                       d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtend.o
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+__bss_end__                                       d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+__bss_start__                                     d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+__call_exitprocs                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+__copy_rom_section                                ./System/startup.o (symbol from plugin)
+__copy_rom_sections_to_ram                        ./System/startup.o (symbol from plugin)
+__deregister_frame_info                           d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+__dso_handle                                      d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+__iar_program_start                               ./System/startup.o (symbol from plugin)
+__init_array_end                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+__init_array_start                                d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+__init_hardware                                   ./System/kinetis_sysinit.o (symbol from plugin)
+__init_registers                                  ./System/startup.o (symbol from plugin)
+__init_user                                       ./System/startup.o (symbol from plugin)
+__libc_fini_array                                 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+__libc_init_array                                 d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+__preinit_array_end                               d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+__preinit_array_start                             d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+__register_frame_info                             d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crtbegin.o
+__sf_fake_stderr                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+__stack                                           d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+__thumb_startup                                   C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/startup.o (symbol from plugin)
+                                                  ./System/kinetis_sysinit.o (symbol from plugin)
+__vector_table                                    C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/kinetis_sysinit.o (symbol from plugin)
+_estack                                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/kinetis_sysinit.o (symbol from plugin)
+_exit                                             d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+_fini                                             d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+_global_impure_ptr                                d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+_impure_ptr                                       d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-impure.o)
+_init                                             d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m/crti.o
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-init.o)
+_mainCRTStartup                                   d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+_start                                            d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./System/startup.o (symbol from plugin)
+_usb_device_assert_resume                         ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_cancel_transfer                       ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_clear_data0_endpoint                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+_usb_device_deinit                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+_usb_device_deinit_endpoint                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_get_status                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_get_transfer_status                   ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_init                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+_usb_device_init_endpoint                         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_read_setup_data                       ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_recv_data                             C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/cdc/virtual_com.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+_usb_device_register_service                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_send_data                             ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_set_address                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+_usb_device_set_status                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./source/class/usb_cdc.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_shutdown                              ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+_usb_device_stall_endpoint                        ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+_usb_device_unregister_service                    ./source/driver/usb_driver.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/common/usb_class.o (symbol from plugin)
+_usb_device_unstall_endpoint                      ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  ./source/driver/usb_driver.o (symbol from plugin)
+_usb_event_clear                                  ./source/driver/usbevent.o (symbol from plugin)
+_usb_event_init                                   ./source/driver/usbevent.o (symbol from plugin)
+_usb_event_set                                    ./source/driver/usbevent.o (symbol from plugin)
+_usb_event_wait_ticks                             ./source/driver/usbevent.o (symbol from plugin)
+all_led_off                                       ./app/common/main_kinetis.o (symbol from plugin)
+atexit                                            d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+buff                                              ./app/common/kinetis/sci.o (symbol from plugin)
+buff_index                                        ./app/common/kinetis/sci.o (symbol from plugin)
+deepsleep                                         ./app/common/main_kinetis.o (symbol from plugin)
+display_led                                       ./app/common/main_kinetis.o (symbol from plugin)
+enter_lls                                         ./app/common/main_kinetis.o (symbol from plugin)
+enter_stop                                        ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlls0                                       ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlls1                                       ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlls2                                       ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlls3                                       ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlpr                                        ./app/common/main_kinetis.o (symbol from plugin)
+enter_vlps                                        ./app/common/main_kinetis.o (symbol from plugin)
+enter_wait                                        ./app/common/main_kinetis.o (symbol from plugin)
+exit                                              d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-exit.o)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ext_req_to_host.lto_priv.27                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_EPn.lto_priv.34                                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_EPn_max.lto_priv.35                             C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_Mem                                             C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_TimerObjectArray                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_assigned_address.lto_priv.25                    C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_bdt_address.lto_priv.39                         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_bdt_elem.lto_priv.37                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_bdtmap                                          C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_break_duration.lto_priv.16                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_cdc_class_callback.lto_priv.21                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_cdc_ep.lto_priv.20                              C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_class_callback.lto_priv.29                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_config_descriptor                               ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_current_interface.lto_priv.13                   C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_dci_controller_Id.lto_priv.36                   C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_device_descriptor                               ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_device_state_before_suspend.lto_priv.30         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_dte_present.lto_priv.18                         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_dte_status.lto_priv.17                          C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_framework_callback.lto_priv.24                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_languages                                       ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_other_req_callback.lto_priv.28                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_pstn_callback.lto_priv.19                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_serial_state_buf.lto_priv.14                    C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_setup_pkt.lto_priv.26                           C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_standard_request                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_std_desc_size                                   ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_std_descriptors                                 ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_std_framework_data.lto_priv.23                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_string_desc_size                                ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_string_descriptors                              ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_trf_direction.lto_priv.38                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_uart_bitmap.lto_priv.15                         C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+g_usb_CB.lto_priv.31                              C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_usb_component_status.lto_priv.32                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_usb_ep_status.lto_priv.33                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_valid_config_values                             ./app/cdc/usb_descriptor.o (symbol from plugin)
+g_validate_request                                C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+g_vendor_req_callback.lto_priv.22                 C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+hardware_init_hook                                d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+kbi_stat                                          ./app/common/main_kinetis.o (symbol from plugin)
+main                                              C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+memcpy                                            d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+                                                  ./source/common/usb_framework.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+memset                                            d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans2.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  ./app/common/kinetis/RealTimerCounter_kinetis.o (symbol from plugin)
+                                                  ./source/driver/kinetis/usb_dci_kinetis.o (symbol from plugin)
+                                                  d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+out_char                                          ./app/common/kinetis/sci.o (symbol from plugin)
+                                                  ./app/common/kinetis/printf.o (symbol from plugin)
+printf_kinetis                                    ./app/common/kinetis/printf.o (symbol from plugin)
+printk                                            ./app/common/kinetis/printf.o (symbol from plugin)
+printk_mknumstr.lto_priv.12                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+printk_pad_space.lto_priv.10                      C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+printk_pad_zero.lto_priv.11                       C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+printk_putc.lto_priv.9                            C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans1.ltrans.o
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+sci2_PutChar                                      ./app/common/kinetis/sci.o (symbol from plugin)
+sci_init                                          ./app/common/kinetis/sci.o (symbol from plugin)
+set_MCG_PEE_Mode                                  ./app/common/main_kinetis.o (symbol from plugin)
+sleep                                             ./app/common/main_kinetis.o (symbol from plugin)
+software_init_hook                                d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+sprintf_kinetis                                   ./app/common/kinetis/printf.o (symbol from plugin)
+stop                                              C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/main_kinetis.o (symbol from plugin)
+strlen                                            d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+                                                  C:\Users\Visuale\AppData\Local\Temp\ccgy3sei.ltrans0.ltrans.o
+                                                  ./app/common/kinetis/printf.o (symbol from plugin)
+uart_getchar                                      ./app/common/kinetis/sci.o (symbol from plugin)
+uart_putchar                                      ./app/common/kinetis/sci.o (symbol from plugin)
+usb_desc_ep                                       ./app/cdc/usb_descriptor.o (symbol from plugin)
